@@ -1,0 +1,20 @@
+解决公司编码后，回家依然能看到公司代码的情况，我们可以使用SourceTree和GitHub这两个工具来帮助我们。
+一 家里办公
+{
+1：GitHub官网上注册账号：xingyawen  密码：xyw101426209@ (SourceTree会用到) 
+2：建好放在GitHub的项目名，ServerReportFunctionTesting
+3: 将HTTP地址：https://github.com/xingyawen/ServerReportFunctionTesting.git复制好
+4：下载安装SourceTree【选择public公共】,点击“克隆”，在弹出框中：上面是HTTP地址，下面是家里本地存放项目地址 ---即实现Github远程和家里本地关联
+5：家里本地项目中可编辑新增，之后在SourceTree中的Master即可看到本地项目情况；点击“推送”即可将本地新增东西传送到GitHub远程【注意写备注否则无法上传，利于后期查看】
+}
+二：公司办公（GitHub远程上已经有家里本地项目，此时在公司想继续编写）
+{
+1：打开SourceTree,选择“克隆”，弹出框中：上面是HTTP地址，下面是公司本地存放项目地址---即实现GitHub远程与公司本地关联
+2：选择“获取”【将公司和GitHub远程进行比较】，如有不同会显示数字，点击数字或选择“拉取”，即可实现公司和GitHub保持一致
+
+小结：SourceTree通过GitHub这个远程小数据库，将家里和公司关联在一起，实现了两者之间的代码互享。
+########注意##########
+1:当提交错东西时，点击master，在提交东西出选择2次“回滚提交”即可将提交的东西只存放在本地，再次选中点击“移除”，家里，公司和GitHub都不在存在此东西
+}
+
+
